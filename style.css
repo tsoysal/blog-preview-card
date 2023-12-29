@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-family: 'Figtree', sans-serif;
+    color: hsl(0, 0%, 7%);
+}
+
+.card-container {
+    max-width: 390px;
+    border: 2px solid hsl(0, 0%, 7%);
+    background-color: hsl(0, 0%, 100%);
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 10px 10px;
+    margin: 0 20px;
+}
+
+.blog-image {
+    max-width: 100%;
+    display: block;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.status {
+    display: inline-block;
+    font-size: 0.9em;
+    font-weight: 800;
+    padding: 5px 10px;
+    color: hsl(0, 0%, 7%);
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 5px;
+}
+
+.date {
+    font-size: 0.8em;
+    margin-top: 10px;
+}
+
+.title {
+    margin: 15px 0;
+    cursor: pointer;
+}
+
+.title:hover, .title:active {
+    color:hsl(47, 88%, 63%);
+}
+
+.explanation {
+    color: hsl(0, 0%, 50%);
+    max-width: 336px;
+    line-height: 1.4em;
+    margin-bottom: 30px;
+}
+
+.author-section {
+    display: flex;
+    align-items: center;
+}
+
+.author-section img {
+    width: 30px;
+}
+
+.author-name {
+    margin-left: 10px;
+    font-weight: 800;
+    font-size: 0.8em;
+}
